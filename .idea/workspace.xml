@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0c91c4f-ae10-478a-a96e-e44a80f4a02e" name="Changes" comment="Day-26: Added a invoice date">
+    <list default="true" id="b0c91c4f-ae10-478a-a96e-e44a80f4a02e" name="Changes" comment="Day-26: adding a table for columns and rows for Excel file.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PDFs/10001-2023.1.18.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/PDFs/10001-2023.1.18.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PDFs/10002-2023.1.18.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/PDFs/10002-2023.1.18.pdf" afterDir="false" />
@@ -123,7 +123,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746549130464</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Day-26: adding a table for columns and rows for Excel file.">
+      <option name="closed" value="true" />
+      <created>1746550594411</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1746550594411</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -142,6 +150,7 @@
     <MESSAGE value="Day-25: Loading the Excel files into dataframes." />
     <MESSAGE value="Day-25: Created a minimal PDF for each Excel file" />
     <MESSAGE value="Day-26: Added a invoice date" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day-26: Added a invoice date" />
+    <MESSAGE value="Day-26: adding a table for columns and rows for Excel file." />
+    <option name="LAST_COMMIT_MESSAGE" value="Day-26: adding a table for columns and rows for Excel file." />
   </component>
 </project>
