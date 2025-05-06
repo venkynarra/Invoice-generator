@@ -7,10 +7,18 @@ filepaths = glob.glob("invoices/*.xlsx")
 
 for filepath in filepaths:
     df = pd.read_excel(filepath, sheet_name="Sheet 1")
+
     pdf = FPDF(orientation="p", unit="mm", format="A4")
     pdf.add_page()
+
     filename = Path(filepath).stem  # stem is like a property for that file
-    invoice_nr = filename.split("-")[0]
+    invoice_nr, date = filename.split("-")
+
+
     pdf.set_font(family="Times", size=16, style="B")
-    pdf.cell(w=50, h=8, txt=f"Invoice nr.{invoice_nr}")
-    pdf.output(f"PDFs/{filename}")
+    pdf.cell(w=50, h=8, txt=f"Invoice nr.{invoice_nr}", ln=1) #ln is break b/w invoice nr and date.
+
+    pdf.set_font(family="Times", size=16, style="B")
+    pdf.cell(w=50, h=8, txt=f"Date:{date}")
+
+    pdf.output(f"PDFs/{filename}.pdf")
